@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>JSlearn</title>
+</head>
+<body id="body">
+    <div class="container">
+        <h1>Квадратные уравнения</h1>
+        <h2>ax<sup>2</sup> + bx + c = 0</h2>
+        <div class="inputs">
+            <div></div>
+            <input placeholder="Значение a" id="a" type="text">
+            <div></div>
+            <input placeholder="Значение b" type="text" id="b">
+            <div></div>
+            <input placeholder="Значение c" type="text" id="c">
+            <div></div>
+        </div>
+        <div class="button-box"><button id="answer" onclick="answer()">Найти корни</button></div>
+        <div class="result">
+            <h2>ОТВЕТ: <span id="otvet"></span></h2>
+            <p id="one_root">Один корень (x) = <span id="root"></span></p>
+            <p id="two_root">Первый корень (x<sub>1</sub>) = <span id="root1">1233432</span></p>
+            <p id="three_root">Второй корень (x<sub>2</sub>) = <span id="root2">1233432</span></p>
+
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
